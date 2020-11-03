@@ -7,7 +7,7 @@ int main() {
     using std::endl;
 
     for (int i = 0; i < 256; ++i)
-        cout<<i<<' '<<char(i)<<' ';
+        cout<<i<<' '<<static_cast<char>(i)<<' ';
     cout << endl;
 
 
